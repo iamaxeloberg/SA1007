@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import numpy as np
 
 # Definiera funktionen f(x) = x^2
@@ -19,3 +20,4 @@ hits_under_curve = np.sum(under_curve)
 area = hits_under_curve / num_points
 
 print(f"Approximativt värde på integralen: {area:.4f}")
+
