@@ -6,7 +6,7 @@ def f(x):
     return x ** 2
 
 # Antal punkter att generera
-num_points = 100000
+num_points = 10000
 
 # Generera slumpmässiga x- och y-värden mellan 0 och 1
 x_random = np.random.rand(num_points)
@@ -19,5 +19,6 @@ hits_under_curve = np.sum(under_curve)
 # Approximation av integralen (arean under kurvan)
 area = hits_under_curve / num_points
 
-print(f"Approximativt värde på integralen: {area:.4f}")
+print("Approximativt värde på integralen: {:.4f}".format(area))
+print("Antal träffar under kurvan: {}".format(hits_under_curve))
 
