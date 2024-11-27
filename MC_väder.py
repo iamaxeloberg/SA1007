@@ -1,3 +1,4 @@
+import numpy as np
 # -*- coding: utf-8 -*-
 
 # Parametrar för vädersimuleringen
